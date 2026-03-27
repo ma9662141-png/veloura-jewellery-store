@@ -283,7 +283,7 @@ export default function HomePage() {
         <div className="container">
           <SectionHeading title="What Our Customers Say" />
           <div className="grid gap-6 md:grid-cols-3">
-            {REVIEWS.map((review) => (
+            {reviews.map((review) => (
               <motion.div
                 key={review.id}
                 initial="hidden"
